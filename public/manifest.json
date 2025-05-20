@@ -2,7 +2,7 @@
   "name": "Weather App",
   "short_name": "Weather",
   "description": "A beautiful weather application with animated backgrounds",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#4da0ff",
   "theme_color": "#4da0ff",

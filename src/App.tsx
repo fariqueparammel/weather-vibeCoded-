@@ -8,7 +8,7 @@ function App() {
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
         navigator.serviceWorker
-          .register("/serviceWorker.js")
+          .register("./serviceWorker.js")
           .then((registration) => {
             console.log(
               "ServiceWorker registration successful with scope: ",
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
